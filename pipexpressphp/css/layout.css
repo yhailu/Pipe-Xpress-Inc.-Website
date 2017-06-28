@@ -1,0 +1,198 @@
+/* Space out content a bit 
+Author: Yesusera Hailu*/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 800px) {
+  .container {
+    max-width: 820px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.navbar-brand{
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+}
+.navbar-brand i{
+
+	color: #ff7878;
+	font-size: 23px;
+	letter-spacing: 1px;
+}
+.footer {
+    background: #EDEFF1;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+}
+.footer p {
+    margin: 0;
+}
+.footer-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+.footer img {
+    max-width: 100%;
+}
+.footer h2 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+.footer a {
+    color: #78828D
+}
+
+button {
+    margin: 5px 0;
+    line-height: 34px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    outline:none !important;
+    width:100%;
+}
+
+button:active {
+
+    outline:none;
+}
+
+button.ribbon {
+
+    outline:none;
+    outline-color: transparent;
+}
+button.ribbon:before, button.ribbon:after {
+    top: 5px;
+    z-index: -10;
+}
+button.ribbon:before {
+    border-color: #53dab6 #53dab6 #53dab6 transparent;
+    left: -25px;
+    border-width: 17px;
+}
+button.ribbon:after {
+    border-color: #53dab6 transparent #53dab6 #53dab6;
+    right: -25px;
+    border-width: 17px;
+}
+
+button:before, button:after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 0;
+    outline:none;
+}
+
+button.btn-default:before {
+    border-color: #757575 #757575 #757575 transparent;
+}
+button.btn-default:after {
+    border-color: #757575 transparent #757575 #757575;
+}
+
+button.btn-danger:before {
+    border-color: #ac2925 #ac2925 #ac2925 transparent;
+}
+button.btn-danger:after {
+    border-color: #ac2925 transparent #ac2925 #ac2925;
+}
+
